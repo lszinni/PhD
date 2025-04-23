@@ -6,35 +6,7 @@ using Plots
 using ColorSchemes
 using LinearAlgebra
 
-# using Pkg
-# using Profile
-# using ThreadsX
-# using LoopVectorization
-# using Distributed
-
-# addprocs(5)
-
 # ----------------------------------------------------------FUNCTIONS
-
-# function mult(ikx, iky, Nk)
-#     if ikx == iky
-#         if ikx == 0 || ikx == Nk
-#             return 1.0
-#         else
-#             return 4.0
-#         end
-#     elseif iky == 0
-#         if ikx == Nk
-#             return 2.0
-#         else 
-#             return 4.0
-#         end
-#     elseif ikx == Nk
-#         return 4.0
-#     else
-#         return 8.0
-#     end
-# end
 
 function suma(ek, μ)
     sum = 0.0
